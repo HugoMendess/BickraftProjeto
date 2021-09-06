@@ -56,6 +56,26 @@ img{
 }
 
 
+.subtitulo-interno{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subtitulo-interno:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 8px auto;
+}
+
 /*  Header */
 
 .header{
@@ -97,6 +117,13 @@ img{
     transition: 0.2s;
 }
 
+.header_menu ul li a.menu_ativo{
+    color: #fec63e;
+    background:#fff;
+    border-radius: 5px;
+    padding: 8px 5px;
+}
+
 /* Introdução do Site */
 
 .introducao{
@@ -107,6 +134,7 @@ img{
     margin-top: 92px;
     text-align: center;
     color: #fff;
+    padding-top: 60px;
     
 }
 /* Introdução interna */
@@ -249,6 +277,7 @@ img{
 
 .qualidade{
     padding: 60px 0;
+    clear: both;
 }
 
 .qualidade:after{
@@ -265,6 +294,7 @@ img{
 
 .qualidade img{
     margin: 0 auto;
+    overflow: auto;
 }
 
 .qualidade_lista li{
