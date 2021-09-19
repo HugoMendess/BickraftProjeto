@@ -268,7 +268,7 @@ img{
     
 }
 
-.portfolio_lista li:last-child{
+.portfolio_lista div:last-child{
     margin-top: 20px;
 }
 
