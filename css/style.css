@@ -16,6 +16,25 @@ img{
     max-width: 100%;
 }
 
+.formphp label.nao-aparece, .formphp input.nao-aparece {
+	display: none !important;
+}
+
+#form-erro span, #form-send span  {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#form-send {
+	color: #31aa39;
+}
+
+#form-erro {
+	color: #f64540;
+}
+
 .btn{
     border: 3px solid #fec63e;
     padding: 10px 30px;
@@ -403,10 +422,10 @@ img{
 /* Animações */
 /*Animações*/
 
-.js .introducao h1, .js .introducao blockquote, .js .introducao .btn, .js .animar, .js .animar-interno, .js .introducao-interna h1, .js .introducao-interna p {
+.js .animar, .js .animar-interno , .js .introducao h1, .js .introducao blockquote, .js .introducao .btn, .js .animar, .js .animar-interno, .js .introducao-interna h1, .js .introducao-interna p {
 	opacity: 0;
 }
-
+ 
 .animated {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
@@ -417,8 +436,8 @@ img{
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(0, -20px, 0);
-            transform: translate3d(0, -20px, 0);
+    -webkit-transform: translate3d(0, -100px, 0);
+            transform: translate3d(0, -100px, 0);
   }
 
   100% {
@@ -431,8 +450,8 @@ img{
 @keyframes fadeInDown {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(0, -20px, 0);
-            transform: translate3d(0, -20px, 0);
+    -webkit-transform: translate3d(0, -100px, 0);
+            transform: translate3d(0, -100px, 0);
   }
 
   100% {
